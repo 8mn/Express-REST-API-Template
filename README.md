@@ -20,6 +20,18 @@ cd agro-alerts-server
 npm install
 ```
 
+### Environment variables
+
+- Head over to [Twilio console](https://console.twilio.com/) and get the Twilio account sid, auth token
+- Head over to [Openweather map](https://openweathermap.org/) signup and get the key
+- rename `.env.example` to `.env` and insert the credentials as shown below
+
+```
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+OPENWEATHER_API_KEY=
+```
+
 ### Running in development
 
 ```
