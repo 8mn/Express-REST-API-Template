@@ -1,11 +1,18 @@
-![example workflow](https://github.com/rzgry/Express-REST-API-Template/actions/workflows/node.js.yml/badge.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-# Express-REST-API-Template
+# Backend relay for Agro Alerts App
 
-Simple express boilerplate based off of [express-generator](https://expressjs.com/en/starter/generator.html). Includes [eslint](https://eslint.org) and [prettier](https://prettier.io) for linting/code formatting, [nodemon](https://github.com/remy/nodemon) for automatic server restarting, and [Jest](https://jestjs.io) for testing.
+This repo is a backend relay for [Agro Alert App](https://github.com/8mn/agroalerts)
 
 ## Getting Started
+
+### Clone the repo on your machine
+
+```
+git clone https://github.com/8mn/agro-alerts-server.git
+cd agro-alerts-server
+```
+
 
 ### Install dependencies
 

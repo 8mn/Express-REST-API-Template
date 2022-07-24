@@ -80,24 +80,24 @@ const makeMessage = (weather) => {
   return message;
 }
 
-const MessageConsole = () => {
-  getWeather(18.67, 73.71).then((weather) => {
-    console.log(makeMessage(weather));
+// const MessageConsole = () => {
+//   getWeather(18.67, 73.71).then((weather) => {
+//     console.log(makeMessage(weather));
 
-    // send message to user
-    // const message = new MessagingResponse().message(makeMessage(weather));
-    // res.set('Content-Type', 'text/xml');
-    // res.send(message.toString()).status(200);
+//     // send message to user
+//     // const message = new MessagingResponse().message(makeMessage(weather));
+//     // res.set('Content-Type', 'text/xml');
+//     // res.send(message.toString()).status(200);
 
 
-  }
-  ).catch((error) => {
-    console.log(error);
-  }
-  );
-}
+//   }
+//   ).catch((error) => {
+//     console.log(error);
+//   }
+//   );
+// }
 
-// MessageConsole();
+
 
 
 
